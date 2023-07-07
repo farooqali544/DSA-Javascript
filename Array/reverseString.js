@@ -7,7 +7,9 @@ function reverse(str) {
     backwards.push(str[i]);
   }
 
-  return backwards.join("");
+  const result = backwards.join("");
+  console.log(result);
+  return result;
 }
 
-reverse('hi there');
+module.exports = { reverse };
